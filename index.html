@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/d4d8cd6ee2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-------------------Header------------------->
+    <nav>
+        <header>
+            <a href="#" class="logo"><i class="fa-solid fa-i-cursor"></i> <i class="fa-solid fa-k"></i></a>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </header>
+        <section>
+            <img src="images/stars.png" alt="" id="stars">
+            <img src="images/moon.png" alt="" id="moon">
+            <img src="images/mountains_behind.png" alt="" id="mountains_behind">
+            <h2 id="text"><span id="full"><span id="name">Ibrahim</span> Kalam</span><br>Developer<span id="plus">+</span></h2>
+            <a href="#about" id="btn">Explore</a>
+            <img src="images/mountains_front.png" alt="" id="mountains_front">
+        </section>
+    </nav>
+    <!-- --------About-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/mine.jpg" alt="" id="me">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Physics graduate with two years experience in web development and blockchain development as a self-learner. <br><br>Attained strong problem solving and computational skills that have paved the foundation for self-teaching programming. The combination of data-analysis, the ability to learn quick and attention to detail acquired from studying physics has created a unique advantage allowing for a patient, adaptable and continually learning programmer. <br><br> Demonstrated ability to develop and implement programs in various technologies and languages including HTML, CSS, JavaScript, React and Solidity. Experienced in debugging and optimising code, developing user-friendly interfaces and solving complex problems. Proficient in communicating and collaborating with team members and clients.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onClick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onClick="opentab('education')">Education</p>
+                        <p class="tab-links" onClick="opentab('hobbies')">Hobbies</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>HTML <br>CSS <br>JavaScript</li>
+                            <li><span>Blockchain</span><br>Solidity <br>Web3 <br>Python</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>University of Bath</span><br>BSc in Physics and Astronomy</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="hobbies">
+                        <ul>
+                            <li><span>Sports</span><br>Cycling and Martial Arts.<li>
+                            <li><span>Music</span><br>Anything but Techno. Please.</li>
+                            <li><span>Tech</span><br>Quantum Computing to AI and everything in-between.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------services--------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Solid foundation in web development principles while proficient in HTML, CSS, JavaScript and frameworks such as React. Experienced in server-side technology Node.js and the database MySQL. Additionally, understand the importance of collaboration and communication between clients and amongst team members.</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+                <div>
+                    <i class="fa-brands fa-ethereum"></i>
+                    <h2>Blockchain</h2>
+                    <p>Strong understanding of blockchain technology and its workings inlcuding concepts such as distributed ledger, consensus mechanisms, and smart contracts. Proficient in Solidity, a common programming language for blockchain development, and experience in the blockchain platform Ethereum. Good understanding of cryptography and security principles which are complemented by experience in web development technologies. Capable of colluding with a team and interacting with clients to suit their needs.</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------Work?------------------------->
+    <!-- <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Work?</h1>
+        </div>
+    </div> -->
+    <!-- -----------------------------contact----------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i></i>ikalam869@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+44 7881023696</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/ibrahim-kalam-a31846165" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Ibra-Zeno" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/Ibrahim_Kalam_CeeVee.pdf" target="_blank" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    <div class="copyright">
+        <p>Made with Love.<br>Image by upklyak on Freepik.</p>
+    </div>
+
+    </div>
+    
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+
+
+        let stars = document.getElementById('stars');
+        let moon = document.getElementById('moon');
+        let mountains_behind = document.getElementById('mountains_behind');
+        let text = document.getElementById('text');
+        let btn = document.getElementById('btn');
+        let mountains_front = document.getElementById('mountains_front');
+        let header = document.querySelector('header');
+
+        window.addEventListener('scroll', function() {
+            let value = window.scrollY;
+            stars.style.left = value*0.25 + 'px';
+            moon.style.top = value*1.01 + 'px';
+            mountains_behind.style.top = value*0.5 + 'px';
+            mountains_front.style.top = value*0 + 'px';
+            text.style.marginRight = value*3 + 'px';
+            text.style.marginTop = value*1.5 + 'px';
+            btn.style.marginTop = value*1.5 + 'px';
+            header.style.top = value*0.5 + 'px';
+        })
+    </script>
+    
+</body>
+</html>
